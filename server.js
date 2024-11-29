@@ -16,7 +16,7 @@ connectDB();
 const app = express();
 // app.use(cors());
 
-const allowedOrigins = ['http://localhost:3000', 'https://donor-hub-client.vercel.app'];
+const allowedOrigins = ['http://localhost:3000', 'https://donor-hub-client-seven.vercel.app'];
 
 // Use CORS middleware
 app.use(cors({
